@@ -1,0 +1,21 @@
+.Section05 .SliderWrapper {
+  margin-top: 34px;
+  position: relative;
+}
+
+.Section05 .slick-list {
+  margin: 0 -15px;
+}
+
+.Section05 .slick-slide {
+  padding: 0 15px;
+}
+
+.Section05 img {
+  transition: 0.5s;
+}
+
+.styleImgChg {
+  opacity: 0.8;
+  transition: 0.5s;
+}

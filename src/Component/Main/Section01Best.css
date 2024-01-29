@@ -1,0 +1,176 @@
+.slide_productlist {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 90px 0;
+}
+
+.tabs {
+  width: 100%;
+  display: block;
+  text-align: center;
+}
+
+/* --title-- */
+
+.sectionTit {
+  font-size: 36px;
+  font-weight: 600;
+  padding: 0;
+  margin: 0;
+  display: block;
+  text-transform: uppercase;
+  border-bottom: 0;
+  text-align: center;
+  line-height: initial;
+}
+
+.subTit {
+  font-size: 16px;
+  color: #A8A8A8;
+  margin-top: 10px;
+  text-align: center;
+}
+
+/* --멀티탭 -- */
+
+.tabList {
+  padding: 0;
+  margin-top: 28px;
+  margin-bottom: 40px;
+}
+
+.tabList .nav-link {
+  color: #A8A8A8 !important;
+  margin: 0 0 5px;
+}
+
+.tabList .active,
+.tabList .nav-link:hover {
+  color: #000 !important;
+  transition: 0.2s;
+}
+
+/* --멀티 페이지 Modal-- */
+
+.tabContent {
+  width: 100%;
+  padding: 0;
+  font-size: 12px;
+  line-height: 1.6em;
+  color: #000;
+}
+
+/* --멀티 페이지 Modal 내용 Props-- */
+
+.tabItem {
+  width: 300px;
+  position: relative;
+}
+
+.prodImgBg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  content: '';
+  pointer-events: none;
+  background-color: rgba(0, 0, 0, .03);
+}
+
+.prodImg {
+  position: relative;
+  margin: 0 0 10px;
+  text-align: center;
+  transition: 0.5s;
+}
+
+.prodImg img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.tabInfo {
+  position: absolute;
+  bottom: -200px;
+  left: 0;
+  width: 100%;
+  transition: all 0.5s;
+  z-index: 99;
+  background-color: rgba(255, 255, 255, 0.9);
+  opacity: 0;
+  margin-bottom: 0;
+  padding: 15px 0 15px;
+  text-align: center;
+  margin: 0 0 10px;
+}
+
+.tabInfo span {
+  width: 100%;
+  display: inline-block;
+  font-size: 13px;
+  font-weight: 600;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+.tabIcon {
+  position: absolute;
+  left: auto;
+  bottom: auto;
+  right: 20px;
+  top: 0px;
+  z-index: 30;
+  cursor: pointer;
+  display: block;
+  width: auto;
+  text-align: center;
+  text-align: right;
+}
+
+.tabIcon img {
+  width: 30px;
+  height: 40px;
+  padding: 10px 5px;
+  display: inline-block;
+  float: none;
+  transition: 0.2s;
+}
+
+/* --*** Hover effect css ***-- */
+
+.prodImgChg {
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+.tabInfoChg {
+  bottom: -20px;
+  opacity: 1;
+  transition: 0.2s;
+}
+
+.prodImgactive {
+  opacity: 1;
+  position: absolute;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  transition: 0.2s;
+}
+
+.prodImginactive {
+  opacity: 0;
+  position: relative;
+  transition: 0.5s;
+}
+
+.sectionVeiwMoreBtn {
+  margin-top: 50px;
+  padding: 10px 25px;
+}

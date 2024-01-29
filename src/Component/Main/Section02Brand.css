@@ -1,0 +1,27 @@
+.Section02 {
+  max-width: 1350px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 90px 20px;
+}
+
+.section2Box {
+  width: 645px;
+  margin-right: 20px;
+}
+
+.section2Box img {
+  width: 100%;
+}
+
+.section2Tit {
+  font-size: 30px;
+  margin-top: 30px;
+  font-weight: 600;
+}
+
+.section2SubTit {
+  color: #8D8D8D;
+  margin-top: 15px;
+  font-weight: 600;
+}

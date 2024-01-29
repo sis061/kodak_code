@@ -1,0 +1,40 @@
+.bannerWrap {
+    position: relative;
+    display: table;
+    width: calc(100% + 1px);
+    margin-left: -0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.bannerBox {
+    width: 100%;
+    height: auto !important;
+    border-bottom: 0;
+}
+
+.bannerTxtWrap {
+    position: absolute;
+    bottom: 50%;
+    left: 0;
+    width: 100%;
+    transform: translateY(50%);
+}
+
+.bannerTxtWrap .title {
+    font-size: 42px;
+    position: relative;
+    line-height: initial;
+    height: auto;
+    font-weight: 500;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.bannerTxtWrap .sectionVeiwMoreBtn {
+    background-color: #000;
+    color: #fff;
+    border: 1px solid #000;
+}

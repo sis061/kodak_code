@@ -1,0 +1,731 @@
+/* ------------ Detail--------------- */
+
+#sub {
+  position: relative;
+  margin: 180px 0 0;
+  padding: 0;
+  width: 100%;
+  border-top: 1px solid #000;
+}
+
+
+/* ------------left head area------------ */
+
+.prodDetail_L {
+  width: 25%;
+  float: left;
+  overflow: visible;
+  min-height: 1px;
+  padding: 0 10px;
+}
+
+.headArea {
+  padding-top: 303.5px !important;
+
+  position: relative;
+  padding: 100px 0 50px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* ------------Scroll Down 시 고정------------ */
+
+.detailLFixed {
+  position: fixed;
+  width: 24%;
+  left: 10px;
+  top: 0px;
+}
+
+.prdtdetailtitle {
+  display: block;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 1.1em;
+  color: #000;
+  margin: 0 0 10px;
+  padding: 0 10px;
+}
+
+.prdt_new_price {
+  margin-top: 13px;
+  font-size: 14px;
+  color: #000000;
+  font-weight: bold;
+  width: 100%;
+  display: block;
+  margin-bottom: 13px;
+  line-height: 1.4em;
+}
+
+.headArea .nav {
+  --bs-nav-link-hover-color: var(--bs-gray-600);
+  transition: 0.5s;
+}
+
+.headArea .nav-item {
+  padding-top: 15px;
+}
+
+/* ------------center img area------------ */
+
+.prodDetail_C {
+  width: 50%;
+  float: left;
+  overflow: hidden;
+  min-height: 1px;
+  padding-top: 0;
+  border-left: 1px solid #555;
+  border-right: 1px solid #555;
+  background: #fff;
+}
+
+/* ------------중앙 상단 슬라이더------------ */
+
+.prodDetail_C .slick-slider img {
+  width: 100%;
+  height: auto;
+}
+
+.dots_custom {
+  display: inline-block;
+  vertical-align: middle;
+  left: 0;
+  right: auto;
+  text-align: center;
+  bottom: -30px;
+}
+
+.dots_custom li {
+  position: relative;
+  display: inline-block;
+  padding: 20px 2px;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.dots_custom li button {
+  border: none;
+  height: 2px;
+  opacity: 1;
+  width: 40px;
+  background: #aaa;
+  color: transparent;
+}
+
+.dots_custom li.slick-active button {
+  background-color: #000;
+}
+
+/* ------------중앙 하단 상품정보 이미지------------ */
+
+.prdtBottom {
+  position: relative;
+  display: block;
+  background-repeat: repeat;
+  padding: 0 0 0;
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto 0;
+}
+
+.prodtAdditional {
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+}
+
+.prodtAdditional img {
+  width: 100% !important;
+  max-width: 100%;
+  height: auto !important;
+  display: block;
+  margin-top: 0;
+}
+
+/* ------------left head area------------ */
+
+.prodDetail_R {
+  width: 25%;
+  float: left;
+  overflow: visible;
+  min-height: 1px;
+  padding: 0 10px;
+}
+
+.orderArea {
+  padding-top: 253.5px !important;
+  margin: 0;
+  padding: 100px 0 50px;
+  float: left;
+  width: 100%;
+}
+
+/* ------------Scroll Down 시 고정------------ */
+.detailRFixed {
+  position: fixed;
+  width: 23.8%;
+  left: 75.6%;
+  top: 0px;
+}
+
+.infoArea {
+  margin: 0 auto;
+  max-width: 360px;
+  width: 100%;
+  position: relative;
+}
+
+.totalProducts p {
+  margin: 5px 0;
+  padding: 0;
+  line-height: 1.4;
+  font-size: 11px;
+}
+
+.totalProducts td {
+  padding: 5px 0 15px;
+  color: #000;
+  line-height: 18px;
+  vertical-align: middle;
+  word-wrap: break-word;
+  word-break: break-all;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.totalProducts td:first-child {
+  padding-left: 4px;
+}
+
+.quantity {
+  display: flex;
+  position: relative;
+  width: 100%;
+  min-width: 80px;
+  vertical-align: middle;
+  text-align: center;
+  padding: 7px 0;
+}
+
+.quantity .up,
+.quantity .down {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 20px;
+  background: transparent;
+}
+
+.quantity button:last-child {
+  margin-top: 2px;
+  font-size: 19px;
+}
+
+.quantity input {
+  position: relative;
+  display: inline-block;
+  width: 30px;
+  height: 25px;
+  line-height: 25px;
+  margin-left: 7px;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  text-align: center;
+  font-size: 12px;
+  background: transparent;
+  color: #000;
+}
+
+.right {
+  padding-right: 9px;
+  font-weight: bold;
+  color: #000;
+  text-align: right;
+}
+
+.quantity_price {
+  font-size: 12px;
+}
+
+.totalPrice {
+  margin: 20px 0 0;
+  padding: 0 0 15px;
+  color: #000;
+  vertical-align: middle;
+  font-size: 16px;
+}
+
+.totalPrice em {
+  font-style: normal;
+  font-size: 16px;
+}
+
+.btnWrap {
+  padding: 20px 0 10px;
+}
+
+.btnFlexBox {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.wbtns {
+  height: 38px;
+  line-height: 38px;
+  border-radius: 0;
+  font-weight: bold;
+  font-size: 13px;
+  width: calc(33.33% - 4px);
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #000000;
+  margin-right: 4px;
+}
+
+.btn_order {
+  background-color: #e80000 !important;
+  border-color: #e80000 !important;
+  color: #fff !important;
+}
+
+.btn_cart {
+  background-color: #000 !important;
+  border-color: #000 !important;
+  color: #fff !important;
+}
+
+.btn_gift {
+  margin-right: 0;
+  background-color: #ffb700 !important;
+  border-color: #ffb700 !important;
+  color: #000 !important;
+}
+
+.btn_gift::before {
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-image: url('../../../public/img/gift_icon.png');
+  background-position: center center;
+  background-size: 18px auto;
+  display: inline-block;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+  margin-top: -3px;
+}
+
+/* ------------BUY, CART btn click -> /cart 이동하는 팝업 박스------------ */
+
+.detailToCartPop {
+  position: fixed;
+  top: 35%;
+  left: 40%;
+  width: 20%;
+  z-index: 99;
+  border: 1px solid #999;
+  transition: 1s ease-in-out;
+}
+
+.detailToCartPop .txtWrap {
+  background-color: #fff;
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.detailToCartPop p {
+  padding: 30px;
+  margin: 0;
+}
+
+.detailToCartPop .btnWrap {
+  background-color: #fbfafa;
+  border-top: 1px solid #eee;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.detailToCartPop button {
+  background: transparent;
+  font-size: 12px;
+  border: 1px solid #000;
+  padding: 1px 10px;
+  margin: 3px;
+}
+
+.detailToCartPop a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+.naver_btnWrap {
+  clear: both;
+  margin: 10px auto;
+  margin-top: 50px;
+}
+
+/* ------------Review Area------------ */
+
+/* ------------Review title------------ */
+.reviewWrap {
+  position: relative;
+  width: 50%;
+  max-width: 100%;
+  margin: 0 auto;
+  float: none;
+  display: block;
+  border: 1px solid #555;
+  border-top: none;
+  border-bottom: 0;
+}
+
+.reviewTitle {
+  display: block;
+  width: 100%;
+  cursor: pointer;
+  padding: 10px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid #555;
+}
+
+.reviewTitle::before {
+  content: '-';
+  margin-right: 5px;
+  font-size: 12px;
+}
+
+/* ------------Review 내용------------ */
+
+.reviewContent {
+  width: 100%;
+  font-size: 12px;
+  line-height: 1.4em;
+  color: #000;
+  padding: 32px;
+  margin: 0;
+  clear: both;
+  border-bottom: 1px solid #555;
+}
+
+/* ------------Review 내용 타이틀------------ */
+
+.reviewContentHeader {
+  border-bottom: 2px solid #14161a;
+  padding: 16px 0;
+  width: 100%;
+}
+
+.reviewContentHeader span {
+  line-height: 30px;
+  font-size: 20px;
+  color: #14161a;
+}
+
+.reviewContentHeader span:first-child {
+  margin-right: 4px;
+}
+
+/* ------------Review 내용 중간 별점 & 리뷰 bar------------ */
+
+.reviewContentSummary {
+  padding: 32px 0;
+  font-size: 0;
+  border-bottom: 1px solid #ebeff5;
+  display: flex;
+}
+
+/* ------------Review 내용 중간 좌측 별점 ------------ */
+
+.summaryL {
+  width: 399px;
+  min-height: 122px;
+  border-right: solid 1px #d8dde5;
+}
+
+.summaryLScore {
+  text-align: center;
+  margin-top: 9px;
+}
+
+.summaryLIcon {
+  width: 48px;
+  height: 48px;
+  margin: 12px 0;
+  display: inline-block;
+}
+
+.summaryLIcon img {
+  width: 100%;
+  height: 100%;
+}
+
+.summaryLText {
+  margin-left: 4px;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 72px;
+  color: #14161a;
+  vertical-align: bottom;
+}
+
+.summaryLPercent {
+  margin-top: 8px;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  color: #14161a;
+}
+
+/* ------------Review 내용 중간 우측 리뷰 bar ------------ */
+
+.summaryR {
+  padding-left: 64px;
+  width: calc(100% - 399px - 1px);
+  vertical-align: top;
+  box-sizing: border-box;
+}
+
+.summaryR ul {
+  margin: 1em 0;
+}
+
+.summaryR ul li {
+  display: flex;
+  margin: 10px 0;
+}
+
+.summaryRFilterTitle {
+  display: inline-block;
+  width: 70px;
+  margin-right: 12px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #707680;
+}
+
+.summaryRFilterGauge {
+  display: inline-block;
+  width: calc(100% - 158px);
+  height: 12px;
+  margin: 3px 0 3px 0;
+  border-radius: 8px;
+  background-color: #ebeff5;
+}
+
+.summaryRFilterGauge_percentile {
+  background-color: #14161a;
+  width: max(100%, 12px);
+  height: 12px;
+  border-radius: 8px;
+}
+
+.summaryRFilterCount {
+  display: inline-block;
+  width: 64px;
+  margin-left: 12px;
+  font-size: 12px;
+  line-height: 18px;
+  color: #707680;
+}
+
+.summaryRFilter_HL .summaryRFilterTitle,
+.summaryRFilter_HL .summaryRFilterGauge,
+.summaryRFilter_HL .summaryRFilterCount {
+  font-weight: bold;
+  color: #14161a;
+}
+
+/* ------------Review 내용 하단 txt 개별 리뷰------------ */
+
+.reviewContentList {
+  border-bottom: 2px solid #dadada;
+}
+
+.reviewContentList ul {
+  padding: 0;
+}
+
+.reviewList {
+  padding: 32px 0;
+  padding-bottom: 20px;
+  font-size: 0;
+}
+
+/* --------Review 내용 하단 좌측 ---------- */
+
+.ListL {
+  display: inline-block;
+  border-right: 1px solid #d8dde5;
+  padding-right: 40px;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 75%;
+}
+
+.reviewListScore {
+  min-height: 20px;
+  display: inline-block;
+}
+
+.reviewListScoreStar {
+  display: inline-block;
+}
+
+.reviewListScoreIcon {
+  width: 20px;
+  height: 20px;
+  float: left;
+}
+
+.reviewListScoreIcon img {
+  width: 100%;
+  height: 100%;
+}
+
+.reviewListScoreText {
+  display: inline-block;
+  vertical-align: text-bottom;
+  margin-left: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 20px;
+  color: #14161a;
+  white-space: nowrap;
+}
+
+.reviewListText {
+  margin-top: 20px;
+  font-size: 13px;
+  line-height: 18px;
+  color: #14161a;
+}
+
+.reviewListLike {
+  margin-top: 20px;
+  height: auto;
+}
+
+.reviewListLikeContainer {
+  display: flex;
+  font-size: 0;
+  margin-right: 4px;
+  color: #707680;
+}
+
+.reviewListLikeBtn {
+  cursor: pointer;
+}
+
+.likeBtn {
+  padding: 5px 0;
+}
+
+.unlikeBtn {
+  padding: 5px 0 5px 4px;
+}
+
+.reviewListLikeContainer img {
+  width: 16px;
+  height: 16px;
+  vertical-align: top;
+  filter: invert(92%) sepia(11%) saturate(209%) hue-rotate(180deg) brightness(82%) contrast(93%);
+}
+
+.reviewListLikeContainer span {
+  font-size: 12px;
+  line-height: 18px;
+  margin: 0 4px;
+}
+
+.reviewListLikeBtn:hover {
+  color: #14161a;
+}
+
+.reviewListLikeComment {
+  padding-left: 8px;
+  padding-top: 5px;
+  height: auto;
+  width: auto;
+}
+
+.reviewListLikeLink {
+  padding: 5px 5px 5px 0;
+  color: #707680;
+  text-decoration: none;
+}
+
+.reviewListLikeLink:hover {
+  color: #14161a;
+}
+
+.reviewListLikeLink span:last-child {
+  margin-left: 4px;
+  margin-right: 4px;
+  font-weight: bold;
+}
+
+.reviewListComment {
+  margin-top: 20px;
+  border-bottom: 1px solid #d8dde5;
+}
+
+/* --------Review 내용 하단 우측 인적정보 ---------- */
+
+.ListR {
+  display: inline-block;
+  padding-left: 40px;
+  vertical-align: top;
+  box-sizing: border-box;
+  width: 25%;
+}
+
+.reviewListName {
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 4px;
+  color: #14161a;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ListR ul {
+  margin-top: 12px;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 0;
+}
+
+.ListR li {
+  line-height: 0.7;
+}
+
+.ListR li p {
+  display: inline-block;
+  color: #707680;
+}
+
+.reviewOptName {
+  font-size: 13px;
+  margin-right: 4px;
+  font-weight: 600;
+}
+
+.detailVisible {
+  display: block;
+}
+
+.detailHidden {
+  display: none !important;
+  transition: 0.5s ease-in-out;
+}
+
+/* ------------// Detail--------------- */

@@ -1,0 +1,26 @@
+.float_bn {
+    position: fixed;
+    right: 0;
+    width: 70px;
+    height: 70px;
+    padding: 10px;
+    z-index: 999;
+  }
+  
+  .float_bn img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .bn_top {
+    bottom: 130px;
+  }
+
+  .bn_stamp {
+    bottom: 70px;
+  }
+  
+  .bn_kakaoplus {
+    bottom: 10px;
+  }

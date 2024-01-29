@@ -1,0 +1,301 @@
+#sub {
+    position: relative;
+    margin: 180px 0 0;
+    padding: 0;
+    width: 100%;
+    border-top: 1px solid #000;
+}
+
+.cartWrap {
+    min-height: 931px;
+    position: relative;
+    width: 100%;
+    display: block;
+    padding: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.cartWrap .titleArea h2 {
+    font-size: 18px;
+    margin: 0 auto;
+    padding: 10px;
+    letter-spacing: 0.01em;
+    font-weight: bold;
+    border-bottom: 1px solid #555;
+    text-transform: uppercase;
+    line-height: 1.2em;
+}
+
+.cartContents {
+    position: relative;
+    width: 100%;
+    margin: 0 0;
+    padding: 10px;
+}
+
+.cartListArea .table {
+    table-layout: fixed;
+    margin: 0 0 1px;
+    color: #000;
+    line-height: 1.5;
+}
+
+.cartListArea td {
+    text-align: left;
+    vertical-align: middle;
+    word-wrap: break-word;
+    padding: 10px !important;
+}
+
+.cartListArea td:last-child {
+    border-bottom: 1px solid #aaa;
+}
+
+.cartList>div {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    font-size: 15px;
+}
+
+.cartList .selectBtn {
+    width: 3%;
+}
+
+.selectBtn input {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 0 5px 0 0;
+    vertical-align: middle;
+    outline: none !important;
+    background: #ddd;
+    border: 1px solid #fff;
+    appearance: none;
+    -webkit-appearance: none;
+}
+
+.selectBtn input:checked {
+    background: #555;
+}
+
+.cartList .cartImg {
+    width: 21%;
+    height: auto;
+    position: relative;
+}
+
+.cartImg a {
+    border-bottom: 0;
+    margin: 0;
+    display: block;
+    /* position: absolute;
+      top: 0;
+      left: 0; */
+    z-index: 9;
+    text-align: left;
+    padding: 0px;
+}
+
+.cartImg a img {
+    width: auto;
+    max-width: 100%;
+    display: block;
+    height: 100%;
+    max-height: 130px;
+}
+
+.cartList .cartTitle {
+    width: 30%;
+}
+
+.cartTitle:hover strong {
+    color: #000 !important;
+}
+
+.cartList .cartPrice {
+    width: 12%;
+    font-size: 14px;
+}
+
+.cartList .cartQuantity {
+    width: 12%;
+}
+
+.cartQuantity input {
+    width: 35px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.cartPriceTotal {
+    width: 12%;
+}
+
+.cartPriceTotal span {
+    font-size: 16px;
+}
+
+.cartListEmpty {
+    display: none;
+    width: 100%;
+}
+
+.cartListEmptyBox p {
+    margin: 20px 0;
+    padding: 50px 0;
+    text-align: center;
+    color: #757575;
+    background: transparent;
+    width: 100%;
+}
+
+
+/* --좌측 하단 btn-- */
+
+.cartBtnArea {
+    margin: 0 10px 40px;
+    border-top: 0;
+    font-size: 11px;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: 800;
+}
+
+.cartBtnArea button {
+    background: none;
+    float: left;
+    text-align: left;
+    font-weight: 800;
+    border-bottom: 1px solid;
+    margin-right: 10px;
+}
+
+#cartAllChk {
+    display: none;
+}
+
+#cartAllChk,
+label {
+    background: none;
+    float: left;
+    text-align: left;
+    font-weight: 800;
+    border-bottom: 1px solid;
+    margin-right: 10px;
+}
+
+label:hover {
+    cursor: pointer;
+}
+
+/* --우측 하단 결제 btn-- */
+
+.cartOrderArea {
+    display: block;
+    border: 0;
+    padding: 20px;
+    color: #000;
+    line-height: 1.5;
+    background: transparent;
+    width: 80%;
+    max-width: 400px;
+    float: right;
+}
+
+.orderPrice {
+    float: left;
+    width: 100%;
+    display: block;
+}
+
+.orderPrice p {
+    padding: 10px 0;
+    font-size: 14px;
+    float: left;
+    width: 40%;
+    padding-bottom: 0;
+}
+
+.orderPrice span {
+    width: 100%;
+    font-size: 12px;
+    float: left;
+    margin: 0;
+    padding-bottom: 10px;
+}
+
+.orderPriceNum {
+    padding: 10px 0;
+    font-size: 14px;
+    float: left;
+    width: 60%;
+    text-align: right;
+}
+
+.orderPriceFinal {
+    padding: 10px 0 0;
+    border-top: 1px solid #aaa;
+    font-size: 18px;
+    font-weight: 600;
+    float: left;
+    width: 100%;
+}
+
+.orderPriceFinal p {
+    padding: 10px 0;
+    float: left;
+    width: 40%;
+}
+
+.orderPriceFinal .orderPriceNum {
+    font-size: 18px;
+}
+
+.orderBtnWrap {
+    margin: 20px 0 10px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.orderBtn50 {
+    width: 50%;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    border: 1px solid;
+}
+
+.btnOrderAll a {
+    background: #000;
+    color: #fff !important;
+    margin: 0;
+    padding: 10px 0;
+    width: 100%;
+    display: block;
+}
+
+.btnOrderSelect a {
+    padding: 10px 0;
+    width: 100%;
+    display: block;
+    color: #000 !important;
+}
+
+.orderBtnWrap .btn_gift {
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+    margin: 0;
+    border: 0;
+    background: #ffb300;
+    font-weight: bold;
+}
+
+.orderBtnWrap .naver_btnWrap {
+    margin-top: 10px;
+}
+
+/* ------------//Cart--------------- */

@@ -1,0 +1,77 @@
+.footer {
+    position: relative;
+    width: 100%;
+    margin: -1px 0 0;
+    padding: 0;
+    z-index: 9;
+    overflow: hidden;
+    box-sizing: border-box;
+    color: #000;
+    background-color: #f4f4f4;
+    font-size: 11px;
+    border-top: 1px solid #555;
+  }
+  
+  .footer .container {
+    max-width: 1200px;
+    padding: 60px 20px;
+    margin: 0 auto;
+  }
+  
+  .footerLogo {
+      width: 160px;
+      height: auto;
+      display: block;
+      margin: 0 0 5px;
+  }
+  
+  .footer p {
+    margin-bottom: 0;
+    line-height: 1.7em;
+  }
+  
+  .footer .bold {
+    font-size: 11px;
+    margin-bottom: 5px;
+    display: block;
+    letter-spacing: 0;
+    font-weight: 600;
+  }
+  
+  .footerRight {
+    padding: 0;
+  }
+  
+  .footerRight > div {
+    float: left;
+    padding: 0;
+  }
+  
+  .footerRight ul {
+    padding: 0;
+  }
+  
+  .footerRight a {
+    line-height: 1.8rem;
+    transition: 0.5s;
+  }
+  
+  .footerRight a:hover{
+    color: #8D8D8D;
+    transition: 0.5s;
+  }
+  
+  .socialBtn {
+      float: none;
+      display: inline-block;
+      padding: 0;
+      margin: 0 2px 0 0;
+      width: 30px;
+  }
+  
+  .socialBtn img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  

@@ -1,0 +1,141 @@
+#sub {
+    position: relative;
+    margin: 180px 0 0;
+    padding: 0;
+    width: 100%;
+    border-top: 1px solid #000;
+}
+
+.loginWrap {
+    min-height: 931px;
+    position: relative;
+    width: 100%;
+    display: block;
+    padding: 0;
+    z-index: 1;
+    overflow: hidden;
+}
+
+.widthHolder {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.loginBox {
+    padding: 30px 10px !important;
+    color: #2e2e2e;
+    padding: 0;
+    line-height: 1.2em;
+}
+
+.loginBoxTitle {
+    margin: 0 0 20px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.loginBox fieldset {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 0 0 9px;
+}
+
+.loginBox legend {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    line-height: 0;
+}
+
+.loginBox label {
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    margin: 0 0 8px;
+    border: 1px solid #555;
+    color: #000;
+}
+
+.loginBox label input {
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    padding: 2px 2px 2px 7px;
+    border: 0 none;
+    color: #000;
+    font-size: 12px;
+    outline: none;
+    background: transparent;
+}
+
+.loginBtn {
+    position: relative;
+    top: 0;
+    right: 0;
+    color: #fff;
+    background-color: #000;
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 0px;
+    text-align: center;
+    margin: 0 auto 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.loginBtn:hover {
+    color: #fff;
+}
+
+.loginBoxTxtSmall {
+    font-size: 10px;
+    color: #333;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #000;
+}
+
+.loginBox ul {
+    overflow: hidden;
+    padding: 0 0 5px;
+    margin: 0;
+    border: 0;
+}
+
+.loginBox li {
+    float: left;
+    padding: 0 5px 0 13px;
+    font-size: 12px;
+}
+
+.loginBox li:first-child {
+    padding-left: 0;
+}
+
+.loginBox li::after {
+    position: relative;
+    top: 2px;
+    right: -10px;
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 11px;
+    border-right: 1px solid #555;
+}
+
+.loginBox li:last-child::after {
+    border: none;
+}
+
+.loginBox li a:hover {
+    color: #000;
+}
