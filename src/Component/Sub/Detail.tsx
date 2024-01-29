@@ -218,8 +218,8 @@ function ProdDetailCenter({
     <div className="prodDetail_C">
       <div>
         <Slider {...settings}>
-          <img src={"/kodak_clone_ReactTypescript"+Ids.imgUrl} alt={Ids.alt} />
-          <img src={"/kodak_clone_ReactTypescript"+Ids.imgUrlSub} alt={Ids.alt} />
+          <img src={"/kodak"+Ids.imgUrl} alt={Ids.alt} />
+          <img src={"/kodak"+Ids.imgUrlSub} alt={Ids.alt} />
         </Slider>
       </div>
       <div className="prdtBottom">
@@ -230,16 +230,16 @@ function ProdDetailCenter({
             src="/kodak/img/SubImg/detail_common_about.jpg"
             alt={Ids.alt}
           />
-          <img src={"/kodak_clone_ReactTypescript"+Ids.imgUrlDetail1} alt={Ids.alt} />
-          <img src={"/kodak_clone_ReactTypescript"+Ids.imgUrlDetail2} alt={Ids.alt} />
-          <img src={"/kodak_clone_ReactTypescript"+Ids.imgUrlDetail3} alt={Ids.alt} />
-          <img src={"/kodak_clone_ReactTypescript"+Ids.imgUrlDetail4} alt={Ids.alt} />
+          <img src={"/kodak"+Ids.imgUrlDetail1} alt={Ids.alt} />
+          <img src={"/kodak"+Ids.imgUrlDetail2} alt={Ids.alt} />
+          <img src={"/kodak"+Ids.imgUrlDetail3} alt={Ids.alt} />
+          <img src={"/kodak"+Ids.imgUrlDetail4} alt={Ids.alt} />
           <img
-            src={"/kodak_clone_ReactTypescript"+Ids.imgUrlDetail5}
+            src={"/kodak"+Ids.imgUrlDetail5}
             alt={Ids.alt}
             className={isVisibleImg ? "" : "detailHidden"}
           />
-          <img src={"/kodak_clone_ReactTypescript"+Ids.imgUrlDetailCleaning} alt={Ids.alt} />
+          <img src={"/kodak"+Ids.imgUrlDetailCleaning} alt={Ids.alt} />
           <img src="/kodak/img/SubImg/detail_common_license.jpg" alt={Ids.alt} />
           <img
             ref={Tabs[1].element}
