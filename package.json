@@ -2,7 +2,7 @@
   "overrides": {
     "typescript": "$typescript"
   },
-  "homepage": "https://sis061.github.io/kodak",
+  "homepage": "https://glittery-gecko-f1d121.netlify.app/",
   "name": "kodak",
   "version": "0.1.0",
   "private": true,
