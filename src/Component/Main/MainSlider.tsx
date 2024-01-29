@@ -11,7 +11,7 @@ import "./MainSlider.css";
 import { Nav } from "react-bootstrap";
 
 import { useState } from "react";
-
+// eslint-disable-next-line
 function MainSlider({}: SliderProps): JSX.Element {
   const [currentIndex, setCurrentIndex] = useState<number>(0);
   let [items] = useState<number[]>([1, 2, 3, 4, 5, 6]);

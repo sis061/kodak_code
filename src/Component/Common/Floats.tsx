@@ -10,7 +10,7 @@ function Floats(): JSX.Element {
   return (
     <>
       <Link
-        to="javascript:;"
+        to="#!"
         onClick={() => {
           scrollTop();
         }}
@@ -18,10 +18,10 @@ function Floats(): JSX.Element {
       >
         <img src="/kodak/img/scrollToTop_icon.png" alt="스탬프 버튼" />
       </Link>
-      <Link to="javascript:;" className="float_bn bn_stamp">
+      <Link to="#!" className="float_bn bn_stamp">
         <img src="/kodak/img/check.png" alt="스탬프 버튼" />
       </Link>
-      <Link to="javascript:;" className="float_bn bn_kakaoplus">
+      <Link to="#!" className="float_bn bn_kakaoplus">
         <img src="/kodak/img/kakaoplus.png" alt="카카오플러스 버튼" />
       </Link>
     </>

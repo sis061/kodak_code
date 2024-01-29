@@ -70,7 +70,7 @@ function Detail(props: DetailProps): JSX.Element {
     +Ids.imgUrlDetail5 === 0
       ? setisVisibleImg(false)
       : setisVisibleImg(true);
-  }, [+Ids.imgUrlDetail5]);
+  }, [Ids.imgUrlDetail5]);
   // console.log(+Ids.imgUrlDetail5);
   // --장바구니 이동 팝업 변수--
   const [isVisiblePop, setIsVisiblePop] = useState<boolean>(true);

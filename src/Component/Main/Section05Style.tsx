@@ -10,7 +10,7 @@ import { useNavigate } from "react-router-dom";
 import { Nav } from "react-bootstrap";
 
 import { useState } from "react";
-
+// eslint-disable-next-line
 function Section05Style({}: SliderProps): JSX.Element {
   const settings = {
     dots: false,
