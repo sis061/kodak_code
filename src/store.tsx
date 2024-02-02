@@ -66,17 +66,9 @@ let cart = createSlice({
       }
     },
 
-    deleteItem(
-      state,
-      action: PayloadAction<{ data: { checkItems: number[] } }>
-    ) {
-      console.log(action.payload);
-      action.payload.data.checkItems.forEach(function (v: number) {
-        const idx = state.findIndex(function (o) {
-          return o.id === v;
-        });
-        state.splice(idx, 1);
-      });
+    deleteItem(state, action: PayloadAction<{ data: { checkItems: number[] } }>) {
+      const updatedState = state.filter((item) => !action.payload.data.checkItems.includes(item.id));
+      return updatedState;
     },
 
     deleteAll(state, action: PayloadAction<number>) {
